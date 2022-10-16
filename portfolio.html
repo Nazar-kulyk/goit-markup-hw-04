@@ -18,29 +18,37 @@
   </head>
 
   <body>
-    <header class="portfolio-header">
-      <div class="container">
+    <header class="index-header">
+      <div class="container header-nav">
         <nav class="header-nav-list">
           <a lang="en" class="logo" href="index.html">Web<span class="logo-st">Studio</span></a>
 
           <ul class="nav-link">
-            <li class="nav-link-li"><a class="link" href="index.html">Студія</a></li>
-            <li class="nav-link-li">
-              <a class="link link-current" href="portfolio.html">Портфолі</a>
-            </li>
+            <li class="nav-link-li"><a class="link link-current" href="index.html">Студія</a></li>
+            <li class="nav-link-li"><a class="link" href="portfolio.html">Портфолі</a></li>
             <li class="nav-link-li"><a class="link" href="#">Контакти</a></li>
           </ul>
-
-          <ul class="list-header-nav">
-            <li class="list-li">
-              <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-
-            <li class="list-li">
-              <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
         </nav>
+
+        <ul class="list-header-nav">
+          <li class="list-li">
+            <a class="contact" href="mailto:info@devstudio.com">
+              <svg class="header-svg-env">
+                <use href="./images/symbol-defs.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+
+          <li class="list-li">
+            <a class="contact" href="tel:+380961111111">
+              <svg class="header-svg-tel">
+                <use href="./images/symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -191,33 +199,80 @@
         </div>
       </section>
     </main>
-    <footer class="cont-info-p">
-      <div class="container">
-        <a lang="en" class="logo logo-ft" href="index.html"
-          >Web<span class="logo-ft-st">Studio</span></a
-        >
+    <footer class="cont-info">
+      <div class="container-ft">
+        <div class="contact-inf-ft">
+          <a lang="en" class="logo logo-ft" href="index.html"
+            >Web<span class="logo-ft-st">Studio</span></a
+          >
 
-        <address class="contact-info">
-          <ul class="list-fotter">
-            <li class="l-fotter-li">
+          <address class="contact-info">
+            <ul class="list-fotter">
+              <li class="l-fotter-li">
+                <a
+                  class="kyiv"
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+
+              <li class="l-fotter-li">
+                <a class="l-fotter-li contact-ft" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+
+              <li class="l-fotter-li">
+                <a class="l-fotter-li contact-ft" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join">
+          <h5 class="title-fifth">приєднуйтесь</h5>
+          <ul class="ft-social-svg">
+            <li class="ft-li-svg">
+              <a href="https:/instagram.com/" target="_blank" rel="noopener noreferrer nofollow">
+                <svg class="ft-svg-ico">
+                  <use href="./images/symbol-defs.svg#instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="ft-li-svg">
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow">
+                <svg class="ft-svg-ico">
+                  <use href="./images/symbol-defs.svg#twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ft-li-svg">
               <a
-                class="kyiv"
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                href="https://www.facebook.com/"
                 target="_blank"
-                rel="noopener noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26</a
+                rel="noopener noreferrer nofollow"
               >
+                <svg class="ft-svg-ico">
+                  <use href="./images/symbol-defs.svg#facebook-1"></use>
+                </svg>
+              </a>
             </li>
-
-            <li class="l-fotter-li">
-              <a class="l-fotter-li contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-
-            <li class="l-fotter-li">
-              <a class="l-fotter-li contact" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="ft-li-svg">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="ft-svg-ico">
+                  <use href="./images/symbol-defs.svg#linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
